@@ -35,10 +35,13 @@ body {
 }
 
 body{
-  background-image: url("../images/topo_bg_black.png");
   background-repeat:no-repeat; 
   background-position: center center;
   background-size: cover;
+}
+
+.topo_bg{
+  background-image: url("../images/topo_bg_black.png");
 }
 
 .logo{
@@ -233,3 +236,12 @@ section .row {
 .fadeIn-bottom{
   top: 80%;
 }
+
+/*
+ * Lists
+ */
+
+ li {
+  list-style: none;
+  text-decoration: line-through;
+ }

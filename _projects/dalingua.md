@@ -1,7 +1,10 @@
 ---
-layout: post
-author: jill
+layout: project
+title:  "dalingua"
+date:   2023-02-16 20:43:05 +0100
+author: Alex
 ---
+
 An apple is a sweet, edible fruit produced by an apple tree.
 
 Apple trees are cultivated worldwide, and are the most widely grown

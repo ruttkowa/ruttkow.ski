@@ -2,16 +2,24 @@
 layout: full_screen
 title: Posts
 ---
-<h1 class="munichmetal">Projects</h1>
-<p class="lead">See what I'm up to..<br>
-</p>
+
+<div class="text-center">
+    <h1 class="munichmetal">Posts</h1>
+    <p class="lead">Random thoughts and content<br>
+    </p>
+</div>
 
 
 <div class="row">
     {% for post in site.posts %}
-    <div class="col-sm-12 col-md-4 col-lg-4">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="lead"><i class="fa fa-user"></i> by <a href="">{{ post.author }}</a></p>
+        <p><i class="fa fa-calendar"></i> Posted on {{ post.date }}</p>
         {{ post.excerpt }}
     </div>
+    <hr>
     {% endfor %}
 </div>
+
+
