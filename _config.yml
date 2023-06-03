@@ -1,7 +1,7 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
-paginate: 9
+paginate: 2
 sass:
   load_paths:
     - _sass
@@ -10,3 +10,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name
+
+plugins:
+  - jekyll-paginate

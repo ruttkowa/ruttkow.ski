@@ -23,3 +23,36 @@ title: Posts
 </div>
 
 
+<!-- Pagination links -->
+<nav>
+    <ul class="pagination">  
+        {% if paginator.previous_page %}
+        <li class="page-item">
+            <a href="{{ paginator.previous_page_path }}" class="page-link">
+                Previous
+            </a>
+        </li>
+        {% else %}
+        <li class="page-item">
+            <span class="page-link"">Previous</span>
+            
+        </li>
+        {% endif %}
+        
+        <li class="page-item">
+            <span cclass="page-link">
+                Page: {{ paginator.page }} of {{ paginator.total_pages }}
+            </span>
+        </li>
+        
+        {% if paginator.next_page %}
+        <li class="page-item">
+            <a href="{{ paginator.next_page_path }}" class="page-link">Next</a>
+        </li> 
+        {% else %}
+        <li class="page-item">
+            <span class="page-link">Next</span>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
