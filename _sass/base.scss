@@ -3,22 +3,52 @@
 @import "bootstrap/bootstrap.scss";
 
 
+/* Import fonts */
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.eot');
+    src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+         url($font-file+'.woff') format('woff'),
+         url($font-file+'.ttf') format('truetype'),
+         url($font-file+'.svg#'+$font-family) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font('Oswald', '../fonts/Oswald-Regular.ttf');
+@include font('Oswald-Extra-Light', '../fonts/Oswald-ExtraLight.ttf');
+@include font('Oswald-Light', '../fonts/Oswald-Light.ttf');
+
+
 /* Custom Styles */
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$gold: #D9C087;
+
+
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
-  font-family: $bodyFont;
+  font-family: 'Oswald-Light', sans-serif;
 }
 
 .current {
   color: green;
+  
 }
 
+a {
+  text-decoration: none;
+  color: $gold;
+}
 
+.gold {
+  color: $gold;
+}
 /* Imported from old site */ 
 
 /*
@@ -161,7 +191,7 @@ body {
 
 .nav-masthead .active {
   color: #fff;
-  border-bottom-color: #fff;
+  border-bottom-color: #D9C087;
 }
 
 /*
@@ -241,7 +271,25 @@ section .row {
  * Lists
  */
 
- li {
+ .intro li {
   list-style: none;
   text-decoration: line-through;
  }
+
+ 
+
+/*
+ * Pagination
+ */
+
+
+
+.page-link{
+  color: #fff;
+  background-color: transparent;
+}
+.page-link.active {
+  color: #D9C087;
+  background-color: transparent;
+  border-color: #D9C087;
+}
