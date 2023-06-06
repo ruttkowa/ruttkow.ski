@@ -55,9 +55,9 @@ pagination:
 
                 {% if paginator.next_page %}
                 <li class="page-item">
-                    <span class="page-link">
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="page-link">
                         {{ paginator.next_page }}
-                    </span>
+                    </a>
                 </li>
                 {% endif %}
                 

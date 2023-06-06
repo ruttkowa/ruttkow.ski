@@ -11612,25 +11612,29 @@ textarea.form-control-lg {
 @font-face {
   font-family: "Oswald";
   src: url("../fonts/Oswald-Regular.ttf.eot");
-  src: url("../fonts/Oswald-Regular.ttf.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald-Regular.ttf.woff") format("woff"), url("../fonts/Oswald-Regular.ttf.ttf") format("truetype"), url("../fonts/Oswald-Regular.ttf.svg#Oswald") format("svg");
+  src: url("../fonts/Oswald-Regular.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Oswald-Extra-Light";
   src: url("../fonts/Oswald-ExtraLight.ttf.eot");
-  src: url("../fonts/Oswald-ExtraLight.ttf.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald-ExtraLight.ttf.woff") format("woff"), url("../fonts/Oswald-ExtraLight.ttf.ttf") format("truetype"), url("../fonts/Oswald-ExtraLight.ttf.svg#Oswald-Extra-Light") format("svg");
+  src: url("../fonts/Oswald-ExtraLight.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Oswald-Light";
   src: url("../fonts/Oswald-Light.ttf.eot");
-  src: url("../fonts/Oswald-Light.ttf.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald-Light.ttf.woff") format("woff"), url("../fonts/Oswald-Light.ttf.ttf") format("truetype"), url("../fonts/Oswald-Light.ttf.svg#Oswald-Light") format("svg");
+  src: url("../fonts/Oswald-Light.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
 /* Custom Styles */
+svg:hover {
+  color: #D9C087;
+}
+
 body {
   background: #ffffff;
   color: #000000;
@@ -11869,6 +11873,11 @@ section .row {
  */
 .page-link {
   color: #fff;
+  background-color: transparent;
+}
+
+.page-link:hover {
+  color: #D9C087;
   background-color: transparent;
 }
 
