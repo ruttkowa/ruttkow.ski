@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11630,15 +11629,24 @@ textarea.form-control-lg {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Bellfort";
+  src: url("../fonts/Bellfort.ttf.eot");
+  src: url("../fonts/Bellfort.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 /* Custom Styles */
+/* Definitions */
+/* Assignments */
 svg:hover {
   color: #D9C087;
 }
 
 body {
-  background: #ffffff;
-  color: #000000;
-  font-family: "Oswald-Light", sans-serif;
+  background: rgb(33, 37, 41);
+  color: #999999;
+  font-family: "Bellfort", sans-serif;
 }
 
 .current {
@@ -11650,7 +11658,7 @@ a {
   color: #D9C087;
 }
 
-.gold {
+.highlight {
   color: #D9C087;
 }
 
@@ -11780,7 +11788,8 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: #D9C087;
+  color: white;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -11890,5 +11899,3 @@ section .row {
   background-color: transparent;
   border-color: #D9C087;
 }
-
-/*# sourceMappingURL=main.css.map */

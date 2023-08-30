@@ -18,37 +18,50 @@
 @include font('Oswald', '../fonts/Oswald-Regular.ttf');
 @include font('Oswald-Extra-Light', '../fonts/Oswald-ExtraLight.ttf');
 @include font('Oswald-Light', '../fonts/Oswald-Light.ttf');
-
+@include font('Bellfort', '../fonts/Bellfort.ttf');
 
 /* Custom Styles */
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
+/* Definitions */
+
+$bg-dark: rgb(33, 37, 41);
+$backgroundgreen: #102629;
+$gray: #999999;
+$darkgreen: #141D14;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $gold: #D9C087;
+$inactive_for_gold: rgba(255, 255, 255, .5);
+$new_inactive_for_gold: rgb(202, 202, 202);
+
+/* Assignments */
+$backgroundColor: $bg-dark;
+$default_font_color: $gray;
+$highlight: $gold;
+$nav_inactive: $inactive_for_gold;
+
 
 
 svg:hover {
-  color: $gold;
+  color: $highlight;
 }
 
 body {
   background: $backgroundColor;
-  color: $bodyColor;
-  font-family: 'Oswald-Light', sans-serif;
+  color: $default_font_color;
+  font-family: 'Bellfort', sans-serif;
 }
 
 .current {
-  color: green;
-  
+  color: green;  
 }
+
 
 a {
   text-decoration: none;
-  color: $gold;
+  color: $highlight;
 }
 
-.gold {
-  color: $gold;
+.highlight {
+  color: $highlight;
 }
 /* Imported from old site */ 
 
@@ -172,7 +185,6 @@ body {
   max-width: 52rem;
 }
 
-
 /*
  * Header
  */
@@ -180,14 +192,16 @@ body {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: $nav_inactive;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  //border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: $highlight;
+  color: white;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -196,7 +210,7 @@ body {
 
 .nav-masthead .active {
   color: #fff;
-  border-bottom-color: #D9C087;
+  border-bottom-color: $highlight;
 }
 
 /*
@@ -296,12 +310,12 @@ section .row {
 }
 
 .page-link:hover{
-  color:$gold;
+  color:$highlight;
   background-color: transparent;
 }
 
 .page-link.active {
-  color: #D9C087;
+  color: $highlight;
   background-color: transparent;
-  border-color: #D9C087;
+  border-color: $highlight;
 }
