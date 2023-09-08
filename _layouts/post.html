@@ -2,28 +2,39 @@
 layout: full_screen
 ---
 
-<div class="text-center">
-    <h1 class="munichmetal gold">Posts</h1>
-    <p class="lead">Random thoughts and content<br>
-    </p>
+<div>
+    <!-- To Do
+    
+    I want some sort of header / menu as a spacer so the blog post isnt' so high up top.
+    
+    
+    -->
 </div>
 
-<div class="row">
+<div class="container-fluid mt-5">
+    <!-- Header for post -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <h3 class="gold">{{ page.title }}</h3>
+            <p class="lead"><i class="fa fa-user"></i> by <a href="">{{ page.author }}</a></p>
+            <p><i class="fa fa-calendar"></i> Posted on {{ page.date | date_to_string}}</p>
+        </div>
+    </div>
 
-    <div class="col-sm-12 col-md-12 col-lg-12">
-        <h3 class="gold">{{ page.title }}</h3>
-        <p class="lead"><i class="fa fa-user"></i> by <a href="">{{ page.author }}</a></p>
-        <p><i class="fa fa-calendar"></i> Posted on {{ post.date | date_to_string}}</p>
-        {{ content }}
+    <!-- Content -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            {{ content }}
+        </div>
+    </div>
+
+    <!-- Backlink -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <a href="/posts.html">Back to posts</a>
+        </div>
     </div>
 
 </div>
 
-<div class="row">
-
-    <div class="col-sm-12 col-md-12 col-lg-12">
-        <a href="/posts.html">Back to posts</a>
-    </div>
-
-</div>
 

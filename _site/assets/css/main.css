@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11772,7 +11773,7 @@ body {
 }
 
 .cover-container {
-  max-width: 52rem;
+  max-width: 56rem;
 }
 
 /*
@@ -11801,6 +11802,9 @@ body {
   border-bottom-color: #D9C087;
 }
 
+/*
+* Banner
+*/
 /*
  * Content
  */
@@ -11899,3 +11903,5 @@ section .row {
   background-color: transparent;
   border-color: #D9C087;
 }
+
+/*# sourceMappingURL=main.css.map */
