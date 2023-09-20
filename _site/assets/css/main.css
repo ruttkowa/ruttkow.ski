@@ -11854,4 +11854,12 @@ section .row {
   border-color: #D9C087;
 }
 
+/*
+* Blog / Posts specific
+*/
+.blog-content h1, .blog-content .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-weight: lighter;
+  color: #D9C087;
+}
+
 /*# sourceMappingURL=main.css.map */

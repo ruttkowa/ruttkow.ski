@@ -2,41 +2,53 @@
 layout: full_screen
 ---
 
-<div>
-    <!-- To Do
-    
-    I want some sort of header / menu as a spacer so the blog post isnt' so high up top.
-    
-    
-    -->
-</div>
-
 <div class="container-fluid mt-5">
-    <div class="row">
-        <img src="{{ page.image }}" class="img-fluid">
-    </div>
+    
     <!-- Header for post -->
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-            <h3 class="gold">{{ page.title }}</h3>
+            <h1 class="gold">{{ page.title }}</h1>
             <p class="lead"><i class="fa fa-user"></i> by <a href="">{{ page.author }}</a></p>
             <p><i class="fa fa-calendar"></i> Posted on {{ page.date | date_to_string}}</p>
         </div>
     </div>
 
-    <!-- Content -->
+    {% if page.image.nil? %}
+    <!-- Image - only if set in frontmatter -->
     <div class="row">
+        <img src="{{ page.image }}" class="img-fluid">
+    </div>
+    {% endif %}
+
+    <!-- Content -->
+    <section class="row blog-content">
         <div class="col-sm-12 col-md-12 col-lg-12">
             {{ content }}
         </div>
-    </div>
-
+    </section>
+    
+    <hr>
+    
     <!-- Backlink -->
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
             <a href="/posts.html">Back to posts</a>
         </div>
     </div>
+
+    <!-- No Comments? -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <h4>💬 Looking for social interactions?</h2>
+            <p>
+                You will not find any call to action to comment or share. This is by design. <br>
+                I want this to be a judgement-free space to explore my thoughts and passions. <br>
+                And I deeply believen this works best in an isolated enviroment.
+            </p>
+        </div>
+    </div>
+
+    
 
 </div>
 
