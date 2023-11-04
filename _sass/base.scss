@@ -1,7 +1,7 @@
 
 @import "vars.scss";
 @import "bootstrap/bootstrap.scss";
-
+@import "syntax_highlights.scss";
 
 /* Import fonts */
 @mixin font($font-family, $font-file) {
@@ -20,22 +20,45 @@
 @include font('Oswald-Light', '../fonts/Oswald-Light.ttf');
 @include font('Bellfort', '../fonts/Bellfort.ttf');
 
-/* Custom Styles */
-/* Definitions */
 
+/* Colorpalette Styles */
+$cp1_green: #264653;
+$cp1_active: #2A9D8F;
+$cp1_highlight: #E9C46A;
+
+$cp2_primary_bg: #22223B;
+$cp2_secondary_bg: #4A4E69;
+
+// Good for Headings
+$cp2_primary_color: #F2E9E4;
+$cp2_secondary_color: #C9ADA7;
+
+// One half dark
+$one_half_dark_bg: #282c34;
+$one_half_dark_white: #dcdfe4;
+$one_half_dark_yellow: #e5c07b;
+
+/* My own colorpalette */
 $bg-dark: rgb(33, 37, 41);
 $backgroundgreen: #102629;
 $gray: #999999;
 $darkgreen: #141D14;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $gold: #D9C087;
 $inactive_for_gold: rgba(255, 255, 255, .5);
 $new_inactive_for_gold: rgb(202, 202, 202);
 
+
+/* Custom Styles */
+/* Definitions */
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+
+
+
 /* Assignments */
-$backgroundColor: $bg-dark;
-$default_font_color: $gray;
-$highlight: $gold;
+$backgroundColor: $one_half_dark_bg;
+$default_font_color: $one_half_dark_white;
+$highlight: $one_half_dark_yellow;
 $nav_inactive: $inactive_for_gold;
 
 
@@ -326,6 +349,10 @@ section .row {
   border-color: $highlight;
 }
 
+pre {
+  padding: 1rem;
+}
+
 /*
 * Blog / Posts specific
 */
@@ -334,3 +361,5 @@ section .row {
   font-weight: lighter;
   color: $highlight;
 }
+
+

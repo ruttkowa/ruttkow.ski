@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Should I get the eBook or physical version of a book?"
+title:  "eBook or physical version?"
 date:   2023-09-10 
 categories: "reading"
 author: Alex
@@ -17,6 +17,7 @@ Of course where one shines is where the other loses so I won't specifically high
 
 ### eBooks
 <img src="{{ page.asset_path }}ebook.jpg" class="img-fluid">
+<br>
 I'm not going to lie - the first time I held an eBook reader I was convinced I'm never going to touch a physical book again. Turns out I was wrong.
 
 #### + note taking

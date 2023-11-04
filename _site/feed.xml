@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-19T09:58:07+02:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Should I get the eBook or physical version of a book?</title><link href="http://localhost:4000/reading/2023/09/10/eBooks_or_physical.html" rel="alternate" type="text/html" title="Should I get the eBook or physical version of a book?" /><published>2023-09-10T00:00:00+02:00</published><updated>2023-09-10T00:00:00+02:00</updated><id>http://localhost:4000/reading/2023/09/10/eBooks_or_physical</id><content type="html" xml:base="http://localhost:4000/reading/2023/09/10/eBooks_or_physical.html"><![CDATA[<!-- tl;dr -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-03T17:28:26+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">eBook or physical version?</title><link href="http://localhost:4000/reading/2023/09/10/eBooks_or_physical.html" rel="alternate" type="text/html" title="eBook or physical version?" /><published>2023-09-10T00:00:00+02:00</published><updated>2023-09-10T00:00:00+02:00</updated><id>http://localhost:4000/reading/2023/09/10/eBooks_or_physical</id><content type="html" xml:base="http://localhost:4000/reading/2023/09/10/eBooks_or_physical.html"><![CDATA[<!-- tl;dr -->
 <p>If you’re like me, you know the struggle. After I’ve set sight on a new book for my library and hovering over the “buy” button I struggle to decide if I should get the physical or the digital / eBook variant of a book. Since I don’t want to waste any more time and energy thinking and deciding I came up with a few markers to check and help me decide.
 <!--more--></p>
 
@@ -7,6 +7,7 @@ Of course where one shines is where the other loses so I won’t specifically hi
 
 <h3 id="ebooks">eBooks</h3>
 <p><img src="/assets/images/blog/2023-09-20/ebook.jpg" class="img-fluid" />
+<br />
 I’m not going to lie - the first time I held an eBook reader I was convinced I’m never going to touch a physical book again. Turns out I was wrong.</p>
 
 <h4 id="-note-taking">+ note taking</h4>
@@ -74,10 +75,320 @@ It gets especially hard for fiction literature.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Even though I now have some help in deciding I still struggle or make the wrong decision. After finishing a book I sometimes still think to myself “Shoud’ve bought the other version”.
 But the beauty of it - if I bought a physical book - I can sell it. If I bought the eBook I can also get the physical edition on top. 
-Books - at least for me - are not a luxury but an investement in myself. And yes, that counts for fiction as well as non-fiction literature.</p>]]></content><author><name>Alex</name></author><category term="reading" /><summary type="html"><![CDATA[If you’re like me, you know the struggle. After I’ve set sight on a new book for my library and hovering over the “buy” button I struggle to decide if I should get the physical or the digital / eBook variant of a book. Since I don’t want to waste any more time and energy thinking and deciding I came up with a few markers to check and help me decide.]]></summary></entry><entry><title type="html">Welcome to ruttkow.ski</title><link href="http://localhost:4000/2023/08/29/first_post.html" rel="alternate" type="text/html" title="Welcome to ruttkow.ski" /><published>2023-08-29T00:00:00+02:00</published><updated>2023-08-29T00:00:00+02:00</updated><id>http://localhost:4000/2023/08/29/first_post</id><content type="html" xml:base="http://localhost:4000/2023/08/29/first_post.html"><![CDATA[<p>I love to teach about technology and tech products.
-But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.</p>
+Books - at least for me - are not a luxury but an investement in myself. And yes, that counts for fiction as well as non-fiction literature.</p>]]></content><author><name>Alex</name></author><category term="reading" /><summary type="html"><![CDATA[If you’re like me, you know the struggle. After I’ve set sight on a new book for my library and hovering over the “buy” button I struggle to decide if I should get the physical or the digital / eBook variant of a book. Since I don’t want to waste any more time and energy thinking and deciding I came up with a few markers to check and help me decide.]]></summary></entry><entry><title type="html">Welcome to ruttkow.ski</title><link href="http://localhost:4000/2023/08/29/first_post.html" rel="alternate" type="text/html" title="Welcome to ruttkow.ski" /><published>2023-08-29T00:00:00+02:00</published><updated>2023-08-29T00:00:00+02:00</updated><id>http://localhost:4000/2023/08/29/first_post</id><content type="html" xml:base="http://localhost:4000/2023/08/29/first_post.html"><![CDATA[<!-- tl;dr -->
 
-<p>Because I feel most of todays tech is used at a too shallow level. People are either not aware or not interested enough to dive deep and develop a deeper understanding of what the everyday tools they are using are really capable of. 
-I feel it is important to give a platform to  give some concrete tactics on how to use tech to your advantage. Especially for creatives like myself. The sheer amout of excuses and things that keeps us from doing what we love is so overwhelming, why not use the tools at our disposal to be more creative and acutally help us instead of slowing us down?</p>
+<h3 id="hello-world">Hello world</h3>
 
-<p>So that’s my mission, to help people understand and use tech through concrete examples and interesting topics.</p>]]></content><author><name>Alex</name></author><summary type="html"><![CDATA[I love to teach about technology and tech products. But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.]]></summary></entry></feed>
+<p>I love to teach about technology and tech products.
+But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.
+<!--more--></p>
+
+<p>Because I feel most of todays tech is used at a too shallow level. People are either not aware or not interested enough to dive deep and develop a deeper understanding of what the everyday tools they are using are really capable of.</p>
+
+<p>I feel it is important to give a platform to  give some concrete tactics on how to use tech to your advantage. Especially for creatives like myself. The sheer amout of excuses and things that keeps us from doing what we love is so overwhelming, why not use the tools at our disposal to be more creative and acutally help us instead of slowing us down?</p>
+
+<p>So that’s my mission, to help people understand and use tech through concrete examples and interesting topics.</p>]]></content><author><name>Alex</name></author><summary type="html"><![CDATA[Hello world I love to teach about technology and tech products. But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.]]></summary></entry><entry><title type="html">10 ideas for Bitpanda</title><link href="http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda.html" rel="alternate" type="text/html" title="10 ideas for Bitpanda" /><published>2022-01-31T00:00:00+01:00</published><updated>2022-01-31T00:00:00+01:00</updated><id>http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda</id><content type="html" xml:base="http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda.html"><![CDATA[<!-- tl;dr -->
+<p>After reading “Skip the Line” by James Altucher I’ve tried out some of his techniques and one stuck with me (although I don‘t practice it that regularly).</p>
+
+<p>It‘s to write down a list of 10 ideas on any given topic in order to train your creative muscle. I keep most of them to myself but some lists I chose to share – who knows who might read them.
+So without any further ado, I present you my 10 ideas for BitPanda.</p>
+
+<!--more-->
+
+<hr />
+<ol>
+  <li>Staking features.
+Many chains operate on a Proof of Stake basis so I’d love to see an option to stake my coins through BitPanda, earning additional rewards. What must go hand in hand as well is maintaining them and being transparent and open about the staking features. The more I think about it the more problems pop up (from taxation to a dedicated infrastrucutre team maintaining pools) but maybe start with one chain and slowly transition to another?</li>
+  <li>Switch BEST Token from ERC20 to a more eco-friendly chain.
+I’m sure there are many alternatives out there already, one of them being my pet project Cardano. With native assets since March last year, having the BEST tokens run on Cardano would be a nice switch. There’s even an ERC20 converter in the works. And since Cardano is completely Proof of Stake you could even argue BEST doesn’t use high energy consuming Proof of Work chains (which is always a bit of a turn-off for me).</li>
+  <li>Display overall invested vs. where it is now.
+There’s still a lot of mistrust against exchanges and many users will pull their assets off of the exchange in order to have full custody over it. 
+Bitpanda sadly doesn’t provide sending assets to corresponding native wallets for every asset. Therefore I’m left with a mix and match between assets which can only be held on Bitpanda as well as assets I hold on private wallets. 
+But I’d love to see a metric which keeps track of how much money I’ve invested through BitPanda and at what level that amount now is – no matter if I still have access to those assets on BitPanda. 
+Not enabled by default, maybe hidden away in a menu this could provide an quick glance / birds eye view to someone who doesn’t want to keep track of every single wallet of the current net worth.</li>
+  <li>Blogs
+Netflix, Slack, Shopifiy and many more publish on a more or less regular basis interesting insights and articles on their own engineering blogs. 
+So I propose that Bitpanda should start it’s own engineering blog. I’d love to see coverage of the many challenges running nodes for the plethora of assets available as well as how they handle infrastructure and scaling challenges. For me such openness always builds trust and reliability – something I heavily look for in a financial exchange service provider.</li>
+  <li>One more for the devs
+Apart from engineering blogs another option would be to run a openly available GitHub repository. Maybe offering native SDKs to work with the BitPanda API or parts of your software you are willing to share with the open source community.</li>
+  <li>Multiple depots
+I run a small business besides my main job. Having two seperate deposits, one for my private account, one for my business account and both linked together / being easily switchable would be a lower barrier of entry for me. 
+As I aim to operate my business more and more towards into the crypto-verse, having a seperate recieving address to be paid in cryptocurrencies would be great.</li>
+  <li>Steel plate credit card
+Ok I admit it – I really like the crypto.com credit card. While I think the BEST program is better and safer (and my personal pick) I’d really love if you’d consider offering steel plate crypto / visa cards. 
+It’s just a better conversation starter than a plastic card.</li>
+  <li>More options with saving plans
+Bitpanda savings plan should be able to pick a more custom start date. 
+For example if I want to start a bi-weekly savings plan in the second week next month, I still have to wait until the actual week to create this savings plan. 
+Picking an acutal date in the month is only possible for a monthly execution.
+I’d love to have a feature to plan for example a new, bi-weekly plan, starting in two weeks or even in two months.</li>
+  <li>Becoming a payment provider
+What the world and other small businesses or creators like myself are really missing as of now is having a payment provider, accepting cryptocurrencies.
+It would be great if I could embed a “Pay with crypto” Button in my site which get’s processed by Bitpandas payment gateway / API. Just like stripe offers a convenient way of paying with fiat, BitPanda could offer a way to accept cryptocurrencies for different payment models such as subscriptions, one-time-invoices etc.</li>
+  <li>Better trackability with webhooks
+Speaking of APIs – most of the people I know who hold crypto somehow try to keep track of their transactions and assets through third party tools. The common way I see it is to do some sort of weekly, daily, hourly (depending on how actively you trade) API call against the exchange to see if new transactions occured. Why not flip the switch and offer webhooks for deposit / buy / withdrawal / trade transactions? Third party providers could easily implement an endpoint which will be called from the Bitpanda webhook, anytime a previously defined transaction is issued / completed. Which means less load on Bitpandas infrastructure, easier access to the information you really need and less overhead and computation on behalf of the third party providers. Win win for everyone.
+I hope you’ve enjoyed those 10 ideas. I really like BitPanda as a company and wish them all the best. I know most of the ideas are very unlikely to happen, hard to implement, aren’t worth the cost and may depend on my sole personal use cases. But maybe it nudges someone into a new direction.
+(As a little bonus idea – scrolling through your job offers I’ve noticed none of them are 100% remote. This may be due to legal reasons but I guess the pandemic sort of transformed what people expect and what kind of jobs they are looking for. At least I would be more drawn to apply this way ;) )</li>
+</ol>]]></content><author><name>Alex</name></author><category term="blockchain" /><summary type="html"><![CDATA[After reading “Skip the Line” by James Altucher I’ve tried out some of his techniques and one stuck with me (although I don‘t practice it that regularly). It‘s to write down a list of 10 ideas on any given topic in order to train your creative muscle. I keep most of them to myself but some lists I chose to share – who knows who might read them. So without any further ado, I present you my 10 ideas for BitPanda.]]></summary></entry><entry><title type="html">The future of crypto</title><link href="http://localhost:4000/blockchain/2022/01/09/the-future-of-crypto.html" rel="alternate" type="text/html" title="The future of crypto" /><published>2022-01-09T00:00:00+01:00</published><updated>2022-01-09T00:00:00+01:00</updated><id>http://localhost:4000/blockchain/2022/01/09/the-future-of-crypto</id><content type="html" xml:base="http://localhost:4000/blockchain/2022/01/09/the-future-of-crypto.html"><![CDATA[<!-- tl;dr -->
+<p>Crypto currencies don’t deserve to be called a investment.
+There — I said it.</p>
+
+<p>I’m sick of looking at charts, reading about median levels and „when moon“-tweets.
+I think cryptocurrencies are not worthy of being called an serious investment. At least not yet.
+From governments banning technolgies to quantum computing being able to crack immutability in a matter of seconds — there are a lot of factors in play which can destroy the entire ecosystem and every project in it with a fingersnap.</p>
+
+<p>And because all of those factors as well as not too much adoption there’s a high volatility resulting in a high risk.</p>
+
+<p>Investing — at least in my jargon — means having some sort of reliability or predictability. But the sheer amount and variety of risks is too high for me to go all in and view cryptocurrencies as a serious form of investement.</p>
+
+<p>Don’t get me wrong, there are definitely many winners who took the risk, put money on the table and made a profit.</p>
+
+<p>But it was a gamble after all.
+And for everyone trying to predict the market while drawing a fu*king dinosaur on top of chart lines..</p>
+
+<p>Really?
+<!--more--></p>
+
+<p>I just can’t take that seriously.
+What I can take seriously however is the underlying tech behind every crypto project.
+Almost every blockchain project tries to solve real world problems.</p>
+
+<p>So why don’t we instead focus on what value the concept of a blockchain can provide?
+So if you’ve been wondering what this crypto stuff really can be good for besides making a quick buck I’m here to give you some tangible examples.</p>
+
+<p>Feel free to take them the next time you’re asked about what this “pyramid scam” actually is good for.</p>
+
+<hr />
+<p><em>A disclaimer before we start. 
+Since my pet project is Cardano, pretty much everything you’re going to read will be based around the Cardano blockchain. 
+I’m sure there are many more projects, capable of achieving the same or similar use cases, I just didn’t have the time to research them.
+I am explicitly not saying Cardano is the best and everything else sucks — I believe there is enough for everyone and for a plethora of blockchains to co-exist.</em></p>
+
+<hr />
+
+<h1 id="what-is-a-blockchain">What is a blockchain?</h1>
+
+<p>First up, let me give you my view on what a blockchain can do for us.
+A blockchain gives us the opportunity to acces a timestamped, immutable and auditable transparent chain of records.
+As most of the blockchains run on a transnational level they are immune to (geo)political events and manipulation which is a huge upside compared to current financial systems humans use.</p>
+
+<!-- INSERT YOUTUBE THUMBNAIL TO https://youtu.be/FKh8hjJNhWc?t=2630&si=4cow9akhTk2VpOLr HERE -->
+
+<p>The poorest person gets the same access to the financial system as the richest person and both of them get treated fairly.</p>
+
+<p>That’s the premise and as far as we’ve seen with current projects, this is quite achievable.</p>
+
+<p>Don’t quote me on this (as I have no sources) but I remember hearing that in the next few years almost two billion people from poorer countries are estimated to have their first encounter with a financial system through digital assets. So adoption will likely grow.
+But apart from the monetary aspect, let’s take a look at what else can be done with cryptocurrencies and their underlying technologies.</p>
+
+<h1 id="digital-identiy">Digital identiy</h1>
+<p>A digital identity, or “DID” in short, is one of the most common use cases. 
+The concept is having a proof of your identity while still having full control over who has access to your information. And that proof is immutable, globally accessible and can not be taken away from you unless…</p>
+
+<p><a href="https://imgs.xkcd.com/comics/security.png"><img src="/assets/images/blog/2022-01-09/xkdc.png" class="img-fluid" /></a></p>
+
+<p>For a more technichal approach let’s use a enterprise solution called <a href="https://atalaprism.io">“Atala Prism”</a> to see one possible implementation.</p>
+
+<p>Participating like any other user in the cardano network, an “Atala Prism node” is based off of the <a href="https://github.com/input-output-hk/cardano-node">regular node</a> every stake pool or Daedalus wallet uses.</p>
+
+<p>Here’s a short walkthrough how it might look like if someone needs certification / a credential:
+<img src="/assets/images/blog/2022-01-09/atalaprism.webp" class="img-fluid" /></p>
+
+<p>Taken from the <a href="https://www.youtube.com/watch?v=8AbgzvOeb6w">technical walkthrough video</a> a digital ID for an issuer A (e.g. a university or government) get’s created with a <a href="https://explorer.cardano-testnet.iohkdev.io/en/transaction?id=41b35ff42bd8c85aa3de8b77d4e3262ef8507a314a4fbabcbaa8468e1508c294">transaction containing specific metadata</a>.
+This attached metadata is encoded and only readable by those custom built Atala nodes.
+The issuer A can now generate credentials for others (for example students or citizens) by submitting another transaction, again, with the corresponding metadata.
+An example can be seen in this transaction which corresponds to the transaction in the video mentioned above.</p>
+
+<p>In it the issuer A generates a credential for a holder B through a transaction.
+There’s obviously not much to see apart from a encrypted, gibberish string of characters. 
+But it goes to show how this piece of software ties together publicly available entries in the cardano blockchain with a more sophisticated logic running on top of it to implement a use case with high security requirements. In this example a blockchain functions as an underlying layer to add security and immutability.</p>
+
+<p>A side-note: you can also batch multiple credentials into one transaction, therefore saving transaction fees and having faster transaction confirmation.</p>
+
+<h1 id="stable-money">Stable money</h1>
+
+<p>High volatility is one of the biggest arguments against investing in crypto.</p>
+
+<blockquote>
+  <p>A boy asked his bitcoin-investing dad for 1 bitcoin for his birthday. 
+Dad: What? $15,554??? $14,354 is a lot of money! What do you need $16,782 for anyway?</p>
+</blockquote>
+
+<p>A already implemented solution many other blockchains offer are so called stable coins.
+Stable coins — as their name implies — are not prone to volatility but are bound to one or more defined assets such as gold or the US dollar. The promise is to have a stable cryptocurrency without the downsides of volatility.</p>
+
+<p>Cardano also has such a project for a stable coin in the works. It’s called Djed.</p>
+
+<p><img src="/assets/images/blog/2022-01-09/djed.png" class="img-fluid" alt="That looks pretty self explaining..Source: https://iohk.io/en/blog/posts/2021/08/18/djed-implementing-algorithmic-stablecoins-for-proven-price-stability/#" /></p>
+
+<p>In simple terms Djed promises to be a acurate, transparent and autonomous smart contract. You can buy or sell one (or many) stable coin for the equivalent of one USD in cryptocurrencies (for example ADA or ERG). This is represented in the left side of the picture. 
+Buying a stable coin also builds up the reserve, shown in the middle.</p>
+
+<p>Your one stable coin can than be sold back at anytime and you will receive one USD in the form of ADA/ERG at current market value in return. Therefore you can rest assured you will always have a digital currency, representing a specific value (in this case a USD).</p>
+
+<p>To prevent the reserve going to zero, users are also incentivized to buy so called reserve coins, displayed on the right side in red. This way a little bit of game theory comes into play, rewarding users to keep the reserve safe.</p>
+
+<p><a href="https://www.youtube.com/watch?v=zG-rxMCDIa0&amp;t=8366s">A deeper insight can be found in the video of the Ergo Summit 2021</a>.
+What’s exciting to me is that this smart contract is formally verified. Meaning the algorithm behind the stable coin is proven to be correct using <a href="https://en.wikipedia.org/wiki/Formal_methods">formal methods</a>, adding another layer of trust and security to what we are used to.</p>
+
+<h1 id="the-future-might-look-bright">The future might look bright</h1>
+
+<p>Last but not least, there is one specific video which really got me thinking more outside of the box.</p>
+
+<p>There are so many possibilities. Possibilities we might not even be aware of. And this video was an eye opener of how one could or better should think of this new technology.
+After all, if we would need to build a global finance system, we probably wouldn’t be doing it the way it is now but rather focus on what we are capable of with this technology at hand.</p>
+
+<p>&lt;!– Inser YT Thumbnail of https://www.youtube.com/watch?v=yu-M2GqMdS8 here&gt;</p>]]></content><author><name>Alex</name></author><category term="blockchain" /><summary type="html"><![CDATA[Crypto currencies don’t deserve to be called a investment. There — I said it. I’m sick of looking at charts, reading about median levels and „when moon“-tweets. I think cryptocurrencies are not worthy of being called an serious investment. At least not yet. From governments banning technolgies to quantum computing being able to crack immutability in a matter of seconds — there are a lot of factors in play which can destroy the entire ecosystem and every project in it with a fingersnap. And because all of those factors as well as not too much adoption there’s a high volatility resulting in a high risk. Investing — at least in my jargon — means having some sort of reliability or predictability. But the sheer amount and variety of risks is too high for me to go all in and view cryptocurrencies as a serious form of investement. Don’t get me wrong, there are definitely many winners who took the risk, put money on the table and made a profit. But it was a gamble after all. And for everyone trying to predict the market while drawing a fu*king dinosaur on top of chart lines.. Really?]]></summary></entry><entry><title type="html">Securing sudo and su with Google authenticator</title><link href="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html" rel="alternate" type="text/html" title="Securing sudo and su with Google authenticator" /><published>2021-04-18T00:00:00+02:00</published><updated>2021-04-18T00:00:00+02:00</updated><id>http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator</id><content type="html" xml:base="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html"><![CDATA[<!-- tl;dr -->
+<p>Passwords suck. 
+That’s why it’s usually preferred to access systems with private / public key authentication. Especially popular with ssh connections.</p>
+
+<p>Nonetheless — even a private key can get compromised. It lives — most of the times — on your local machine and therefore can be exposed to other security threats like malware etc.
+So let’s assume at some point our keys get compromised and an attacker is able to log in with the key to one of our servers.</p>
+
+<p>Most of the times this would go unnoticed (adding a simple, yet effective monitoring solution is another article ;) ) so we have to make sure that if that happens an attacker can only do so much.</p>
+
+<p>Having a good security concept in regards of user and group management is critical. On my systems, root login is prohibited and I solely work with my personal user and sudo commands.
+That being the main gateway into my systems I want to lock down sudo authentication and the ability to use the su command even more.
+<!--more--></p>
+
+<p>One of the easiest ways to implement was the google authenticator.
+This little guide was done with the latest RHEL 8 release. 
+Some of the commands may be adjusted accordingly if you use another distribution. Let’s get started.</p>
+
+<h2 id="what-you-need">What you need</h2>
+
+<ul>
+  <li>The Google Authenticator app installed on your phone.</li>
+  <li>A user with sudo privilege</li>
+  <li>The following dependencies: <code class="language-html highlighter-rouge">git autoconf automake make libtool pam-devel</code></li>
+</ul>
+
+<p><strong>Attention</strong>: In this guide we alter authentication rules. Unless you’re confident in what you are doing, please stop.
+You can potentially lock yourself out of your own system!</p>
+
+<p><strong>During the whole installation I suggest to keep a seperate root (ssh) session open for backup purposes and to roll back any changes if it does not work as intended.</strong></p>
+
+<p>Unless explicitly stated you need to run the command as the user with sudo privileges. The code boxes are without any prompt for easier copy &amp; pasting ;)</p>
+
+<h2 id="installing-the-authenticator">Installing the authenticator</h2>
+
+<p>Let‘s get the current repository from GitHub with git clone.</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="syntax"><code>git clone http://github.com/google/google-authenticator-libpam.git
+</code></pre></div></div>
+
+<p>Change into the newly created directory and set up everything through the two scripts <code class="language-html highlighter-rouge">bootstrap.sh</code> and <code class="language-html highlighter-rouge">configure</code> to run the install with make and make install afterwards.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="syntax"><code>cd google-authenticator-libpam/
+# In the directory run
+./bootstrap.sh
+./configure
+make
+sudo make install
+</code></pre></div></div>
+
+<p>This should install the google authenticator library without any input needed.</p>
+
+<p>Next, let‘s configure PAM to switch over to the google authenticator for running sudo or su.</p>
+
+<p>PAM is — in short — an application that manages user authentication.
+<a href="https://www.redhat.com/sysadmin/pam-configuration-file">Here‘s a pretty good blog post by RedHat if you want to understand the basic structure</a>.</p>
+
+<p>For this guide we will change explicitly only the files for the commands we want to add the authenticator to. 
+You can also set the authenticator to be used on a higher level. 
+Please check the official google documentation in the GitHub Repository on how to do that.</p>
+
+<p>The two files we are going to change are found at <code class="language-html highlighter-rouge">/etc/pam.d/sudo</code> and <code class="language-html highlighter-rouge">/etc/pam.d/su/</code>.</p>
+
+<p>Backing up the original configuration is always recommended before we start.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="syntax"><code># Copy the files and change suffix to .bak (for backup)
+cp /etc/pam.d/su ~/su.bak
+cp /etc/pam.d/sudo ~/sudo.bak
+</code></pre></div></div>
+
+<p>Now that we have a backup of a working config in our home directory, we can safely adjust the files to our liking. If something goes wrong the backup can always be copied back and overwrite our altered configuration.</p>
+
+<p>Open the file with the editor of your choice (I use vi) with <code class="language-html highlighter-rouge">vi /etc/pam.d/sudo</code>
+and adjust the input to look like this:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="syntax"><code>#%PAM-1.0
+auth       sufficient   /usr/local/lib/security/pam_google_authenticator.so
+auth       include      system-auth
+account    include      system-auth
+password   include      system-auth
+session    optional     pam_keyinit.so revoke
+session    required     pam_limits.so
+</code></pre></div></div>
+
+<p>As you can see we included the google authenticator pam module for the first entry with the type of „auth“.
+It‘s set to sufficient because we want to return to the application if the google authentication is successful.</p>
+
+<p>Next up, the su file: <code class="language-html highlighter-rouge">vi /etc/pam.d/su</code></p>
+
+<p>Content of /etc/pam.d/su:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="syntax"><code>#%PAM-1.0
+auth            sufficient      pam_rootok.so
+auth            sufficient      /usr/local/lib/security/pam_google_authenticator.so
+# Uncomment the following line to implicitly trust users in the "wheel" group.
+#auth           sufficient      pam_wheel.so trust use_uid
+# Uncomment the following line to require a user to be in the "wheel" group.
+#auth           required        pam_wheel.so use_uid
+auth            substack        system-auth
+auth            include         postlogin
+account         sufficient      pam_succeed_if.so uid = 0 use_uid quiet
+account         include         system-auth
+password        include         system-auth
+session         include         system-auth
+session         include         postlogin
+session         optional        pam_xauth.so
+</code></pre></div></div>
+
+<p>Another thing to consider is to set up a timeout to sudo privileges to control after which time the authenticator code needs to be validated again.</p>
+
+<p>If you want to do so, let‘s use the sudoers.d/local file as this will survive upgrades. Remember, manually added specific settings should always be done in the „.d“ folders or files.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="syntax"><code>vi /etc/sudoers.d/local
+</code></pre></div></div>
+
+<p>Add the line</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="syntax"><code>Defaults timestamp_timeout=30
+</code></pre></div></div>
+<p>to set the timeout to 30min. If you want to re-authorize every sudo command with the token, set the timeout to 0.</p>
+
+<p>Now run the google authenticator as your user you want to use the authenticator with.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="syntax"><code><span class="nv">$ </span>google-authenticator
+Do you want authentication tokens to be time-based <span class="o">(</span>y/n<span class="o">)</span> y
+Do you want me to update your <span class="s2">"/home/&lt;USER&gt;/.google_authenticator"</span> file? <span class="o">(</span>y/n<span class="o">)</span> y
+Do you want to disallow multiple uses of the same authentication
+token? This restricts you to one login about every 30s, but it increases
+your chances to notice or even prevent man-in-the-middle attacks <span class="o">(</span>y/n<span class="o">)</span> y
+By default, a new token is generated every 30 seconds by the mobile app.
+In order to compensate <span class="k">for </span>possible time-skew between the client and the server,
+we allow an extra token before and after the current time. This allows <span class="k">for </span>a
+<span class="nb">time </span>skew of up to 30 seconds between authentication server and client. If you
+experience problems with poor <span class="nb">time </span>synchronization, you can increase the window
+from its default size of 3 permitted codes <span class="o">(</span>one previous code, the current
+code, the next code<span class="o">)</span> to 17 permitted codes <span class="o">(</span>the 8 previous codes, the current
+code, and the 8 next codes<span class="o">)</span><span class="nb">.</span> This will permit <span class="k">for </span>a <span class="nb">time </span>skew of up to 4 minutes
+between client and server.
+Do you want to <span class="k">do </span>so? <span class="o">(</span>y/n<span class="o">)</span> y
+If the computer that you are logging into isn<span class="s1">'t hardened against brute-force
+login attempts, you can enable rate-limiting for the authentication module.
+By default, this limits attackers to no more than 3 login attempts every 30s.
+Do you want to enable rate-limiting? (y/n) y
+</span></code></pre></div></div>
+
+<p>You are now prompted to connect the codes with your phone app.
+The alphanumeric code probably needs to copied by hand although if you have libqrencode installed you might be lucky and able to scan a QR image.</p>
+
+<p>After registering the code in your app you are good to go.
+Try logging off and logging in with a fresh session and issue a sudo command. You are now getting prompted to enter the verfication code before being able to run commands as sudo.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>We now added an additional layer of security to our system.
+There are however still some flaws.</p>
+
+<p>The file which genereates the secert is stored in the corresponding /home directory of that user.
+This might be an additional security flaw as the secret can easily be read and / or manipulated if one has access to the home directory.</p>
+
+<p>If you want to, you can change that and store the secret in a more secure way.
+A simple way to do so can be found <a href="https://blog.entek.org.uk/notes/2019/07/08/secure-sudo-with-google-authenticator.html">here</a>.</p>]]></content><author><name>Alex</name></author><category term="tech" /><summary type="html"><![CDATA[Passwords suck. That’s why it’s usually preferred to access systems with private / public key authentication. Especially popular with ssh connections. Nonetheless — even a private key can get compromised. It lives — most of the times — on your local machine and therefore can be exposed to other security threats like malware etc. So let’s assume at some point our keys get compromised and an attacker is able to log in with the key to one of our servers. Most of the times this would go unnoticed (adding a simple, yet effective monitoring solution is another article ;) ) so we have to make sure that if that happens an attacker can only do so much. Having a good security concept in regards of user and group management is critical. On my systems, root login is prohibited and I solely work with my personal user and sudo commands. That being the main gateway into my systems I want to lock down sudo authentication and the ability to use the su command even more.]]></summary></entry></feed>
