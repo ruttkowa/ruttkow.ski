@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generating and tracking workouts with Obsidian"
-date:   2023-11-04 
+date:   2023-11-03
 categories: 
   - "sport"
   - "obsidian"
