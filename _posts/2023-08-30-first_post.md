@@ -11,8 +11,6 @@ image:
 
 <!-- tl;dr -->
 
-### Hello world
-
 I love to teach about technology and tech products.
 But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.
 <!--more-->

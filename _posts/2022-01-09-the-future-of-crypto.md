@@ -52,7 +52,7 @@ First up, let me give you my view on what a blockchain can do for us.
 A blockchain gives us the opportunity to acces a timestamped, immutable and auditable transparent chain of records.
 As most of the blockchains run on a transnational level they are immune to (geo)political events and manipulation which is a huge upside compared to current financial systems humans use.
 
-<!-- INSERT YOUTUBE THUMBNAIL TO https://youtu.be/FKh8hjJNhWc?t=2630&si=4cow9akhTk2VpOLr HERE -->
+<a href="https://youtu.be/FKh8hjJNhWc?t=2630&si=4cow9akhTk2VpOLr"><img src="{{ page.asset_path }}yt_thumb.jpg" class="img-fluid"></a>
 
 The poorest person gets the same access to the financial system as the richest person and both of them get treated fairly.
 
@@ -72,7 +72,7 @@ For a more technichal approach let’s use a enterprise solution called <a href=
 Participating like any other user in the cardano network, an “Atala Prism node” is based off of the <a href="https://github.com/input-output-hk/cardano-node">regular node</a> every stake pool or Daedalus wallet uses.
 
 Here’s a short walkthrough how it might look like if someone needs certification / a credential:
-<img src="{{ page.asset_path }}atalaprism.webp" class="img-fluid">
+<img src="{{ page.asset_path }}atalaprism.png" class="img-fluid">
 
 Taken from the <a href="https://www.youtube.com/watch?v=8AbgzvOeb6w">technical walkthrough video</a> a digital ID for an issuer A (e.g. a university or government) get’s created with a <a href="https://explorer.cardano-testnet.iohkdev.io/en/transaction?id=41b35ff42bd8c85aa3de8b77d4e3262ef8507a314a4fbabcbaa8468e1508c294">transaction containing specific metadata</a>.
 This attached metadata is encoded and only readable by those custom built Atala nodes.
@@ -116,4 +116,5 @@ Last but not least, there is one specific video which really got me thinking mor
 There are so many possibilities. Possibilities we might not even be aware of. And this video was an eye opener of how one could or better should think of this new technology.
 After all, if we would need to build a global finance system, we probably wouldn’t be doing it the way it is now but rather focus on what we are capable of with this technology at hand.
 
-<!-- Inser YT Thumbnail of https://www.youtube.com/watch?v=yu-M2GqMdS8 here>
+
+<a href="https://www.youtube.com/watch?v=yu-M2GqMdS8"><img src="{{ page.asset_path }}yu-M2GqMdS8.jpg" class="img-fluid"></a>

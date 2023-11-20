@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-06T13:52:05+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Generating and tracking workouts with Obsidian</title><link href="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html" rel="alternate" type="text/html" title="Generating and tracking workouts with Obsidian" /><published>2023-11-03T00:00:00+01:00</published><updated>2023-11-03T00:00:00+01:00</updated><id>http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan</id><content type="html" xml:base="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html"><![CDATA[<!-- tl;dr -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-20T13:03:05+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Generating and tracking workouts with Obsidian</title><link href="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html" rel="alternate" type="text/html" title="Generating and tracking workouts with Obsidian" /><published>2023-11-03T00:00:00+01:00</published><updated>2023-11-03T00:00:00+01:00</updated><id>http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan</id><content type="html" xml:base="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html"><![CDATA[<!-- tl;dr -->
 <p>Welcome to my poor attempt to document and explain my approach on how to use Obsidian an some plugins to help me stay more active and on track with my physical training.
 <!--more--></p>
 
@@ -508,7 +508,7 @@ And since <code class="language-html highlighter-rouge">overhead pressExtraReps:
 
 <ol>
   <li>Use the developer tools. I relied heavily on them, cross referencing functions and running my scripts. Obsidian Developer Tools on a Mac can be accessed with Command (⌘) + Option (⌥) + i</li>
-  <li>If you want to use dataview in a non <code class="language-html highlighter-rouge">dataview</code>declared code block simply use the <code class="language-html highlighter-rouge">DataviewAPI</code> object instead of the <code class="language-html highlighter-rouge">dv.</code> object like you’re used to. That way you can query pages and work with them and the metadata</li>
+  <li>If you want to use dataview in a non <code class="language-html highlighter-rouge">dataview</code> declared code block or in conjunction with templater JavaScript simply use the <code class="language-html highlighter-rouge">DataviewAPI</code> object instead of the <code class="language-html highlighter-rouge">dv.</code> object like you’re used to. That way you can query pages and work with them and the metadata</li>
   <li>Use camelCase for metadata. Parsing Metadata with underscores or other seperators sometimes didn’t work - therefore I switched to camelCase completely.</li>
   <li>Since Obsidian metadata can’t be nested (yet?) you can implement a workaround with parseable syntax. First thing you need to do is to define the delimiter (and make sure this delimiter doesn’t show up in any potential values) and the second thing is to document the syntax. For some code might be enough documentation but I’d rather have a nice readme.</li>
   <li>Try to treat files with metadata more like database entries and think hard about which values you track with metadata. Sticking to <a href="https://en.wikipedia.org/wiki/Database_normalization">database normalization</a>helped me a lot (although it obviously cant be applied 100%).</li>
@@ -525,24 +525,29 @@ Of course where one shines is where the other loses so I won’t specifically hi
 <br />
 I’m not going to lie - the first time I held an eBook reader I was convinced I’m never going to touch a physical book again. Turns out I was wrong.</p>
 
-<h4 id="-note-taking">+ note taking</h4>
+<p><strong>Positive: note taking</strong></p>
+
 <p>This is one of the biggest upsides eBooks. I can only speak of the Kindle version but taking notes is a breeze. Highlighting or making annotations is pretty easy. 
 Also re-discovering or mergin my notes into my Knowledge Management System is super convenient. Since Kindle also has macOS native Apps I can work side by side and copy &amp; paste and even generate digital tasks out of sparks I had while reading.</p>
 
 <p>Which reminds me - I still need to check out how to automatically pull notes through the Kindle API and parse them into my Knowledge Management System.</p>
 
-<h4 id="-no-lights-needed">+ no lights needed</h4>
+<p><strong>Positive: no lights needed</strong></p>
+
 <p>I really like to red before going to bed. But sometimes I stay up later than my wife. With an eBook reader I’m in no need to leave the lights on and keep everybody awake just so I can read.</p>
 
-<h4 id="-internet-attached">+ internet attached</h4>
+<p><strong>Positive: internet attached</strong></p>
+
 <p>I’m a non native speaker but I still almost exclusivey read english books. From time to time, more so in fiction, there are words I don’t really know or understand. Highlighting and getting an english explanation with examples really helps me build my vocabulary.</p>
 
-<h4 id="--re-read-ability">- Re-read-ability</h4>
+<p><strong>Negative: Re-read-ability</strong></p>
+
 <p>I really dislike re-reading specific chapters on my Kindle.<br />
 For me, taking out a book from your shelve, flicking through it and stopping if something sticks out is way faster and more enjoyable on physical books. I’ll likely stumble over something interesting in a physical book than in a eBook.
 Skipping multiple pages on an eBook reader might be okay-ish but the response time of e-ink displays isn’t really on par with using paper.</p>
 
-<h4 id="--dependency">- Dependency</h4>
+<p><strong>Negative: Dependency</strong></p>
+
 <p>Once you use services like Kindle or buy which only work with specific hardware you’re in what is called a “vendor lock in”. <br />
 I don’t think this is too much of an issue for the majority but should be kept in mind. You probably kind of depend on a company to keep having access to your books. You can not switch devices easily or export bought books.</p>
 
@@ -553,7 +558,7 @@ I don’t think this is too much of an issue for the majority but should be kept
 
 <p>Physical books started it all and make out the majority of my “collection”. From Harry Potter, His Dark Materials into non-fiction from Richard Dawkins and reading non-fiction almost exclusively for the last 10+ years, physical books were my always part of my life.</p>
 
-<h4 id="-the-physicality">+ the physicality</h4>
+<p><strong>Positive: the physicality</strong></p>
 
 <p>Pretty obvious but it’s just something different to experience a book with more senses. <br />
 To riffle through the pages while reading a chapter. <br />
@@ -561,38 +566,43 @@ To smell fresh ink or old paper.<br />
 Making reading a mulit-sensory experience is so much more sastifactory than staring into a soulless device. 
 Picking up an old book seeing the creases and withering I just can’t stop being reminded that physical books are made to endure</p>
 
-<h4 id="-sharing-is-caring">+ sharing is caring</h4>
+<p><strong>Positive: sharing is caring</strong></p>
 
 <p>I really like to talk about stuff I know and consumed. So chances are pretty high conversations with me head into topics I’ve read about. The next logical step for me - if appreciated and wanted - is to get the most fitting book and lend it for them to get the same insight I had.</p>
 
-<h4 id="--mobility">- mobility</h4>
+<p><strong>Negative: mobility</strong></p>
+
 <p>Wether it’s for holidays or on my commute - phsyical books just take up more space. Most of the time I can only take one or two books with me. Which kind of sucks if I’m working on something and gathered a lot of research. Needing multiple physical books for project kind of bind me to a certain physical space. Not something I always want.</p>
 
 <h2 id="how-i-decide">How I decide</h2>
+
 <p>The conclusion? I’ve came up with different markes - some maybe not really objective - but they work for me.
 Here they are.</p>
 
-<h3 id="do-i---at-any-time---want-to-gift-or-lend-this-book-to-anybody">Do I - at any time - want to gift or lend this book to anybody?</h3>
+<p><strong>1. Do I - at any time - want to gift or lend this book to anybody?</strong></p>
+
 <p>If yes - there’s a good chance I’ll buy the physical version. Gifting a book is in itself a pretty strong indicator of how good a book is.</p>
 
-<h3 id="do-i-want-to-look-up-something-from-time-to-time">Do I want to look up something from time to time</h3>
+<p><strong>2. Do I want to look up something from time to time</strong></p>
+
 <p>This comes directly from the re-read-ability. <br />
 Is this a book I want or need to pick up from time to time and look something up? If yes - buying the physical version is an instant yes.
 Some recent examples include books like “Built to move” or “The daily stoic”.</p>
 
-<h3 id="3-do-i-like-the-cover">3. Do I like the cover?</h3>
+<p><strong>3. Do I like the cover?</strong></p>
+
 <p>Listen, I’m a visual guy. You shouldn’t judge a book by it’s cover but if the cover’s really good there’s a higher chance I’ll get the physical copy and put it in my book shelve.<br />
 It gets especially hard for fiction literature.</p>
 
-<h3 id="4-do-i-want-to-pass-on-this-book-to-my-kids">4. Do I want to pass on this book to my kids?</h3>
-<p>A big dream of mine is to build an private library over time.</p>
+<p><strong>4. Do I want to pass on this book to my kids?</strong></p>
+
+<p>A big dream of mine is to build an private library over time. Therefore I need to have a substantial amount of physical books as a foundation. As I kid (or even now) I would’ve loved to have access to books which helped my parents.</p>
 
 <h2 id="conclusion">Conclusion</h2>
+
 <p>Even though I now have some help in deciding I still struggle or make the wrong decision. After finishing a book I sometimes still think to myself “Shoud’ve bought the other version”.
 But the beauty of it - if I bought a physical book - I can sell it. If I bought the eBook I can also get the physical edition on top. 
 Books - at least for me - are not a luxury but an investement in myself. And yes, that counts for fiction as well as non-fiction literature.</p>]]></content><author><name>Alex</name></author><category term="reading" /><summary type="html"><![CDATA[If you’re like me, you know the struggle. After I’ve set sight on a new book for my library and hovering over the “buy” button I struggle to decide if I should get the physical or the digital / eBook variant of a book. Since I don’t want to waste any more time and energy thinking and deciding I came up with a few markers to check and help me decide.]]></summary></entry><entry><title type="html">Welcome to ruttkow.ski</title><link href="http://localhost:4000/2023/08/29/first_post.html" rel="alternate" type="text/html" title="Welcome to ruttkow.ski" /><published>2023-08-29T00:00:00+02:00</published><updated>2023-08-29T00:00:00+02:00</updated><id>http://localhost:4000/2023/08/29/first_post</id><content type="html" xml:base="http://localhost:4000/2023/08/29/first_post.html"><![CDATA[<!-- tl;dr -->
-
-<h3 id="hello-world">Hello world</h3>
 
 <p>I love to teach about technology and tech products.
 But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.
@@ -602,7 +612,7 @@ But not in the common way of unboxing, reviewing and just re-iterating the specs
 
 <p>I feel it is important to give a platform to  give some concrete tactics on how to use tech to your advantage. Especially for creatives like myself. The sheer amout of excuses and things that keeps us from doing what we love is so overwhelming, why not use the tools at our disposal to be more creative and acutally help us instead of slowing us down?</p>
 
-<p>So that’s my mission, to help people understand and use tech through concrete examples and interesting topics.</p>]]></content><author><name>Alex</name></author><summary type="html"><![CDATA[Hello world I love to teach about technology and tech products. But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.]]></summary></entry><entry><title type="html">10 ideas for Bitpanda</title><link href="http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda.html" rel="alternate" type="text/html" title="10 ideas for Bitpanda" /><published>2022-01-31T00:00:00+01:00</published><updated>2022-01-31T00:00:00+01:00</updated><id>http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda</id><content type="html" xml:base="http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda.html"><![CDATA[<!-- tl;dr -->
+<p>So that’s my mission, to help people understand and use tech through concrete examples and interesting topics.</p>]]></content><author><name>Alex</name></author><summary type="html"><![CDATA[I love to teach about technology and tech products. But not in the common way of unboxing, reviewing and just re-iterating the specs. I really want to show how to use tech products and technology. To really benefit from it.]]></summary></entry><entry><title type="html">10 ideas for Bitpanda</title><link href="http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda.html" rel="alternate" type="text/html" title="10 ideas for Bitpanda" /><published>2022-01-31T00:00:00+01:00</published><updated>2022-01-31T00:00:00+01:00</updated><id>http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda</id><content type="html" xml:base="http://localhost:4000/blockchain/2022/01/31/10-ideas-for-bitpanda.html"><![CDATA[<!-- tl;dr -->
 <p>After reading “Skip the Line” by James Altucher I’ve tried out some of his techniques and one stuck with me (although I don‘t practice it that regularly).</p>
 
 <p>It‘s to write down a list of 10 ideas on any given topic in order to train your creative muscle. I keep most of them to myself but some lists I chose to share – who knows who might read them.
@@ -687,7 +697,7 @@ I am explicitly not saying Cardano is the best and everything else sucks — I b
 A blockchain gives us the opportunity to acces a timestamped, immutable and auditable transparent chain of records.
 As most of the blockchains run on a transnational level they are immune to (geo)political events and manipulation which is a huge upside compared to current financial systems humans use.</p>
 
-<!-- INSERT YOUTUBE THUMBNAIL TO https://youtu.be/FKh8hjJNhWc?t=2630&si=4cow9akhTk2VpOLr HERE -->
+<p><a href="https://youtu.be/FKh8hjJNhWc?t=2630&amp;si=4cow9akhTk2VpOLr"><img src="/assets/images/blog/2022-01-09/yt_thumb.jpg" class="img-fluid" /></a></p>
 
 <p>The poorest person gets the same access to the financial system as the richest person and both of them get treated fairly.</p>
 
@@ -707,7 +717,7 @@ The concept is having a proof of your identity while still having full control o
 <p>Participating like any other user in the cardano network, an “Atala Prism node” is based off of the <a href="https://github.com/input-output-hk/cardano-node">regular node</a> every stake pool or Daedalus wallet uses.</p>
 
 <p>Here’s a short walkthrough how it might look like if someone needs certification / a credential:
-<img src="/assets/images/blog/2022-01-09/atalaprism.webp" class="img-fluid" /></p>
+<img src="/assets/images/blog/2022-01-09/atalaprism.png" class="img-fluid" /></p>
 
 <p>Taken from the <a href="https://www.youtube.com/watch?v=8AbgzvOeb6w">technical walkthrough video</a> a digital ID for an issuer A (e.g. a university or government) get’s created with a <a href="https://explorer.cardano-testnet.iohkdev.io/en/transaction?id=41b35ff42bd8c85aa3de8b77d4e3262ef8507a314a4fbabcbaa8468e1508c294">transaction containing specific metadata</a>.
 This attached metadata is encoded and only readable by those custom built Atala nodes.
@@ -753,7 +763,7 @@ What’s exciting to me is that this smart contract is formally verified. Meanin
 <p>There are so many possibilities. Possibilities we might not even be aware of. And this video was an eye opener of how one could or better should think of this new technology.
 After all, if we would need to build a global finance system, we probably wouldn’t be doing it the way it is now but rather focus on what we are capable of with this technology at hand.</p>
 
-<p>&lt;!– Inser YT Thumbnail of https://www.youtube.com/watch?v=yu-M2GqMdS8 here&gt;</p>]]></content><author><name>Alex</name></author><category term="blockchain" /><summary type="html"><![CDATA[Crypto currencies don’t deserve to be called a investment. There — I said it. I’m sick of looking at charts, reading about median levels and „when moon“-tweets. I think cryptocurrencies are not worthy of being called an serious investment. At least not yet. From governments banning technolgies to quantum computing being able to crack immutability in a matter of seconds — there are a lot of factors in play which can destroy the entire ecosystem and every project in it with a fingersnap. And because all of those factors as well as not too much adoption there’s a high volatility resulting in a high risk. Investing — at least in my jargon — means having some sort of reliability or predictability. But the sheer amount and variety of risks is too high for me to go all in and view cryptocurrencies as a serious form of investement. Don’t get me wrong, there are definitely many winners who took the risk, put money on the table and made a profit. But it was a gamble after all. And for everyone trying to predict the market while drawing a fu*king dinosaur on top of chart lines.. Really?]]></summary></entry><entry><title type="html">Securing sudo and su with Google authenticator</title><link href="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html" rel="alternate" type="text/html" title="Securing sudo and su with Google authenticator" /><published>2021-04-18T00:00:00+02:00</published><updated>2021-04-18T00:00:00+02:00</updated><id>http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator</id><content type="html" xml:base="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html"><![CDATA[<!-- tl;dr -->
+<p><a href="https://www.youtube.com/watch?v=yu-M2GqMdS8"><img src="/assets/images/blog/2022-01-09/yu-M2GqMdS8.jpg" class="img-fluid" /></a></p>]]></content><author><name>Alex</name></author><category term="blockchain" /><summary type="html"><![CDATA[Crypto currencies don’t deserve to be called a investment. There — I said it. I’m sick of looking at charts, reading about median levels and „when moon“-tweets. I think cryptocurrencies are not worthy of being called an serious investment. At least not yet. From governments banning technolgies to quantum computing being able to crack immutability in a matter of seconds — there are a lot of factors in play which can destroy the entire ecosystem and every project in it with a fingersnap. And because all of those factors as well as not too much adoption there’s a high volatility resulting in a high risk. Investing — at least in my jargon — means having some sort of reliability or predictability. But the sheer amount and variety of risks is too high for me to go all in and view cryptocurrencies as a serious form of investement. Don’t get me wrong, there are definitely many winners who took the risk, put money on the table and made a profit. But it was a gamble after all. And for everyone trying to predict the market while drawing a fu*king dinosaur on top of chart lines.. Really?]]></summary></entry><entry><title type="html">Securing sudo and su with Google authenticator</title><link href="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html" rel="alternate" type="text/html" title="Securing sudo and su with Google authenticator" /><published>2021-04-18T00:00:00+02:00</published><updated>2021-04-18T00:00:00+02:00</updated><id>http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator</id><content type="html" xml:base="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html"><![CDATA[<!-- tl;dr -->
 <p>Passwords suck. 
 That’s why it’s usually preferred to access systems with private / public key authentication. Especially popular with ssh connections.</p>
 

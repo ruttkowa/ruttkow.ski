@@ -519,7 +519,7 @@ And since `overhead pressExtraReps::` would not register as `"overhead pressExtr
 In conclusion, here are my main takeaways from this little project:
 
 1. Use the developer tools. I relied heavily on them, cross referencing functions and running my scripts. Obsidian Developer Tools on a Mac can be accessed with Command (⌘) + Option (⌥) + i
-2. If you want to use dataview in a non `dataview`declared code block simply use the `DataviewAPI` object instead of the `dv.` object like you're used to. That way you can query pages and work with them and the metadata
+2. If you want to use dataview in a non `dataview` declared code block or in conjunction with templater JavaScript simply use the `DataviewAPI` object instead of the `dv.` object like you're used to. That way you can query pages and work with them and the metadata
 3. Use camelCase for metadata. Parsing Metadata with underscores or other seperators sometimes didn't work - therefore I switched to camelCase completely.
 4. Since Obsidian metadata can't be nested (yet?) you can implement a workaround with parseable syntax. First thing you need to do is to define the delimiter (and make sure this delimiter doesn't show up in any potential values) and the second thing is to document the syntax. For some code might be enough documentation but I'd rather have a nice readme.
 5. Try to treat files with metadata more like database entries and think hard about which values you track with metadata. Sticking to [database normalization](https://en.wikipedia.org/wiki/Database_normalization)helped me a lot (although it obviously cant be applied 100%).
