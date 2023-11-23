@@ -12150,4 +12150,31 @@ pre {
   color: #e5c07b;
 }
 
+.yt-thumbnail-container {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.yt-thumbnail-image {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.yt-svg-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 8rem;
+  width: auto;
+  transform: translate(-50%, -50%);
+}
+
 /*# sourceMappingURL=main.css.map */

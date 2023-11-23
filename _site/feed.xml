@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-20T13:03:05+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Generating and tracking workouts with Obsidian</title><link href="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html" rel="alternate" type="text/html" title="Generating and tracking workouts with Obsidian" /><published>2023-11-03T00:00:00+01:00</published><updated>2023-11-03T00:00:00+01:00</updated><id>http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan</id><content type="html" xml:base="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html"><![CDATA[<!-- tl;dr -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-23T22:04:09+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Generating and tracking workouts with Obsidian</title><link href="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html" rel="alternate" type="text/html" title="Generating and tracking workouts with Obsidian" /><published>2023-11-03T00:00:00+01:00</published><updated>2023-11-03T00:00:00+01:00</updated><id>http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan</id><content type="html" xml:base="http://localhost:4000/sport/obsidian/2023/11/03/obsidian-training-plan.html"><![CDATA[<!-- tl;dr -->
 <p>Welcome to my poor attempt to document and explain my approach on how to use Obsidian an some plugins to help me stay more active and on track with my physical training.
 <!--more--></p>
 
@@ -697,7 +697,22 @@ I am explicitly not saying Cardano is the best and everything else sucks — I b
 A blockchain gives us the opportunity to acces a timestamped, immutable and auditable transparent chain of records.
 As most of the blockchains run on a transnational level they are immune to (geo)political events and manipulation which is a huge upside compared to current financial systems humans use.</p>
 
-<p><a href="https://youtu.be/FKh8hjJNhWc?t=2630&amp;si=4cow9akhTk2VpOLr"><img src="/assets/images/blog/2022-01-09/yt_thumb.jpg" class="img-fluid" /></a></p>
+<!-- YT Image -->
+<div class="yt-thumbnail-container">
+    <a href="https://youtu.be/FKh8hjJNhWc?t=2630&amp;si=4cow9akhTk2VpOLr">
+        <img src="/assets/images/blog/2022-01-09/yt_thumb.jpg" class="img-fluid yt-thumbnail-image" />
+
+        <svg class="yt-svg-play-button" fill="#ffffff" stroke="150" height="150" width="inherit" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60" xml:space="preserve">
+                <g>
+                    <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z" />
+                    <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z" />
+                </g>
+        </svg>
+    </a>
+</div>
 
 <p>The poorest person gets the same access to the financial system as the richest person and both of them get treated fairly.</p>
 
@@ -763,7 +778,22 @@ What’s exciting to me is that this smart contract is formally verified. Meanin
 <p>There are so many possibilities. Possibilities we might not even be aware of. And this video was an eye opener of how one could or better should think of this new technology.
 After all, if we would need to build a global finance system, we probably wouldn’t be doing it the way it is now but rather focus on what we are capable of with this technology at hand.</p>
 
-<p><a href="https://www.youtube.com/watch?v=yu-M2GqMdS8"><img src="/assets/images/blog/2022-01-09/yu-M2GqMdS8.jpg" class="img-fluid" /></a></p>]]></content><author><name>Alex</name></author><category term="blockchain" /><summary type="html"><![CDATA[Crypto currencies don’t deserve to be called a investment. There — I said it. I’m sick of looking at charts, reading about median levels and „when moon“-tweets. I think cryptocurrencies are not worthy of being called an serious investment. At least not yet. From governments banning technolgies to quantum computing being able to crack immutability in a matter of seconds — there are a lot of factors in play which can destroy the entire ecosystem and every project in it with a fingersnap. And because all of those factors as well as not too much adoption there’s a high volatility resulting in a high risk. Investing — at least in my jargon — means having some sort of reliability or predictability. But the sheer amount and variety of risks is too high for me to go all in and view cryptocurrencies as a serious form of investement. Don’t get me wrong, there are definitely many winners who took the risk, put money on the table and made a profit. But it was a gamble after all. And for everyone trying to predict the market while drawing a fu*king dinosaur on top of chart lines.. Really?]]></summary></entry><entry><title type="html">Securing sudo and su with Google authenticator</title><link href="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html" rel="alternate" type="text/html" title="Securing sudo and su with Google authenticator" /><published>2021-04-18T00:00:00+02:00</published><updated>2021-04-18T00:00:00+02:00</updated><id>http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator</id><content type="html" xml:base="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html"><![CDATA[<!-- tl;dr -->
+<!-- YT Image -->
+<div class="yt-thumbnail-container">
+    <a href="https://www.youtube.com/watch?v=yu-M2GqMdS8">
+        <img src="/assets/images/blog/2022-01-09/yu-M2GqMdS8.jpg" class="img-fluid yt-thumbnail-image" />
+
+        <svg class="yt-svg-play-button" fill="#ffffff" stroke="150" height="150" width="inherit" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60" xml:space="preserve">
+                <g>
+                    <path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z" />
+                    <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z" />
+                </g>
+        </svg>
+    </a>
+</div>]]></content><author><name>Alex</name></author><category term="blockchain" /><summary type="html"><![CDATA[Crypto currencies don’t deserve to be called a investment. There — I said it. I’m sick of looking at charts, reading about median levels and „when moon“-tweets. I think cryptocurrencies are not worthy of being called an serious investment. At least not yet. From governments banning technolgies to quantum computing being able to crack immutability in a matter of seconds — there are a lot of factors in play which can destroy the entire ecosystem and every project in it with a fingersnap. And because all of those factors as well as not too much adoption there’s a high volatility resulting in a high risk. Investing — at least in my jargon — means having some sort of reliability or predictability. But the sheer amount and variety of risks is too high for me to go all in and view cryptocurrencies as a serious form of investement. Don’t get me wrong, there are definitely many winners who took the risk, put money on the table and made a profit. But it was a gamble after all. And for everyone trying to predict the market while drawing a fu*king dinosaur on top of chart lines.. Really?]]></summary></entry><entry><title type="html">Securing sudo and su with Google authenticator</title><link href="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html" rel="alternate" type="text/html" title="Securing sudo and su with Google authenticator" /><published>2021-04-18T00:00:00+02:00</published><updated>2021-04-18T00:00:00+02:00</updated><id>http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator</id><content type="html" xml:base="http://localhost:4000/tech/2021/04/18/securing-sudo-and-su-google-authenticator.html"><![CDATA[<!-- tl;dr -->
 <p>Passwords suck. 
 That’s why it’s usually preferred to access systems with private / public key authentication. Especially popular with ssh connections.</p>
 

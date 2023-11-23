@@ -52,7 +52,25 @@ First up, let me give you my view on what a blockchain can do for us.
 A blockchain gives us the opportunity to acces a timestamped, immutable and auditable transparent chain of records.
 As most of the blockchains run on a transnational level they are immune to (geo)political events and manipulation which is a huge upside compared to current financial systems humans use.
 
-<a href="https://youtu.be/FKh8hjJNhWc?t=2630&si=4cow9akhTk2VpOLr"><img src="{{ page.asset_path }}yt_thumb.jpg" class="img-fluid"></a>
+<!-- YT Image -->
+<div class="yt-thumbnail-container">
+    <a href="https://youtu.be/FKh8hjJNhWc?t=2630&si=4cow9akhTk2VpOLr">
+        <img src="{{ page.asset_path }}yt_thumb.jpg" class="img-fluid yt-thumbnail-image">
+
+        <svg class="yt-svg-play-button" fill="#ffffff" stroke="150" height="150" width="inherit" version="1.1" id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60"
+                xml:space="preserve">
+                <g>
+                    <path
+                        d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z" />
+                    <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z" />
+                </g>
+        </svg>
+    </a>
+</div>
 
 The poorest person gets the same access to the financial system as the richest person and both of them get treated fairly.
 
@@ -116,5 +134,23 @@ Last but not least, there is one specific video which really got me thinking mor
 There are so many possibilities. Possibilities we might not even be aware of. And this video was an eye opener of how one could or better should think of this new technology.
 After all, if we would need to build a global finance system, we probably wouldn’t be doing it the way it is now but rather focus on what we are capable of with this technology at hand.
 
+<!-- YT Image -->
+<div class="yt-thumbnail-container">
+    <a href="https://www.youtube.com/watch?v=yu-M2GqMdS8">
+        <img src="{{ page.asset_path }}yu-M2GqMdS8.jpg" class="img-fluid yt-thumbnail-image">
 
-<a href="https://www.youtube.com/watch?v=yu-M2GqMdS8"><img src="{{ page.asset_path }}yu-M2GqMdS8.jpg" class="img-fluid"></a>
+        <svg class="yt-svg-play-button" fill="#ffffff" stroke="150" height="150" width="inherit" version="1.1" id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60"
+                xml:space="preserve">
+                <g>
+                    <path
+                        d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
+                                c0,0.371,0.205,0.711,0.533,0.884C22.679,45.962,22.84,46,23,46c0.197,0,0.394-0.059,0.563-0.174l22-15
+                                C45.836,30.64,46,30.331,46,30S45.836,29.36,45.563,29.174z M24,43.107V16.893L43.225,30L24,43.107z" />
+                    <path d="M30,0C13.458,0,0,13.458,0,30s13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z M30,58C14.561,58,2,45.439,2,30
+                                S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z" />
+                </g>
+        </svg>
+    </a>
+</div>
+
