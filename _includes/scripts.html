@@ -1,0 +1,12 @@
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+<script>
+    var right = document.getElementById('right').style.height;
+    var left = document.getElementById('left').style.height;
+    if (left > right) {
+        document.getElementById('right').style.height = left;
+    }
+    else {
+        document.getElementById('left').style.height = right;
+    }
+</script>
