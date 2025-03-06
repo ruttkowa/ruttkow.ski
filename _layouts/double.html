@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="h-100"lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body class="topo_bg d-flex h-100 p-0 text-center text-white bg-dark container-fluid">
+    <!-- Start -->
+    <div class="row w-100 m-0">
+      <!-- LEFT START -->
+      <div class="col-md-6 col-sm-12" id="left">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column main_left">
+          <!-- Header -->
+          <header class="mb-auto">
+            <div class="row">
+              <div class="col-sm-12 col-md-4">
+               
+              </div>
+              
+            </div>
+          </header>
+
+          <main class="px-3 container-fluid">
+            <section class="">
+              {{ content }}
+            </section>
+          </main>
+
+          {% include footer.html %}
+        </div>
+      </div>
+      <!-- LEFT END -->
+      <!-- RIGHT -->
+      <div class="main_right col-md-6 col-sm-12 d-none d-md-block" id="right">
+      </div>
+    </div>
+  </body>
+  {% include scripts.html %}
+</html>

@@ -1,0 +1,54 @@
+---
+layout: full_screen
+---
+
+<div class="container-fluid mt-5">
+    
+    <!-- Header for post -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <h1 class="gold">{{ page.title }}</h1>
+            <p><i class="fa fa-calendar"></i> Posted on {{ page.date | date_to_string}}</p>
+        </div>
+    </div>
+
+    {% if page.image.nil? %}
+    <!-- Image - only if set in frontmatter -->
+    <div class="row">
+        <img src="{{ page.image }}" class="img-fluid">
+    </div>
+    {% endif %}
+
+    <!-- Content -->
+    <section class="row blog-content">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            {{ content }}
+        </div>
+    </section>
+    
+    <hr>
+    
+    <!-- Backlink -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <a href="/posts.html">Back to posts</a>
+        </div>
+    </div>
+
+    <!-- No Comments? -->
+    <div class="row text-center">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <h4>💬 Looking for social interactions?</h2>
+            <p>
+                You will not find any call to action to comment or share. This is by design. <br>
+                I want this to be a judgement-free space to explore my thoughts and passions. <br>
+                And I deeply believe this works best in an isolated enviroment.
+            </p>
+        </div>
+    </div>
+
+    
+
+</div>
+
+

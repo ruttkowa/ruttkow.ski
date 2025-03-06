@@ -1,0 +1,53 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+permalink: /:year/:month/:day/:title/
+
+pagination:
+  enabled: true
+  debug: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  indexpage: 'posts'
+
+
+markdown: kramdown
+hightlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'syntax'
+sass:
+  load_paths:
+    - _sass
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      category:
+      tags:
+      excerpt_separator: <!--more-->
+      asset_path: /assets/images/blog/{{ page.title }}
+      image: /assets/images/blog/{{ page.title }}/hero.jpg
+    posts:
+      layout: post
+      category:
+      tags:
+      excerpt_separator: <!--more-->
+      asset_path: /assets/images/blog/{{ page.title }}
+      image: /assets/images/blog/{{ page.title }}/hero.jpg
+      published: false
+      sitemap: false

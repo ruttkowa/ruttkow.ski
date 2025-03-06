@@ -1,0 +1,399 @@
+
+@import "vars.scss";
+@import "bootstrap/bootstrap.scss";
+@import "syntax_highlights.scss";
+
+/* Import fonts */
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.eot');
+    src: url($font-file+'.eot?#iefix') format('embedded-opentype');
+         
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font('Oswald', '../fonts/Oswald-Regular.ttf');
+@include font('Oswald-Extra-Light', '../fonts/Oswald-ExtraLight.ttf');
+@include font('Oswald-Light', '../fonts/Oswald-Light.ttf');
+@include font('Bellfort', '../fonts/Bellfort.ttf');
+
+
+/* Colorpalette Styles */
+$cp1_green: #264653;
+$cp1_active: #2A9D8F;
+$cp1_highlight: #E9C46A;
+
+$cp2_primary_bg: #22223B;
+$cp2_secondary_bg: #4A4E69;
+
+// Good for Headings
+$cp2_primary_color: #F2E9E4;
+$cp2_secondary_color: #C9ADA7;
+
+// One half dark
+$one_half_dark_bg: #282c34;
+$one_half_dark_white: #dcdfe4;
+$one_half_dark_yellow: #e5c07b;
+
+/* My own colorpalette */
+$bg-dark: rgb(33, 37, 41);
+$backgroundgreen: #102629;
+$gray: #999999;
+$darkgreen: #141D14;
+$gold: #D9C087;
+$inactive_for_gold: rgba(255, 255, 255, .5);
+$new_inactive_for_gold: rgb(202, 202, 202);
+
+
+/* Custom Styles */
+/* Definitions */
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+
+
+
+/* Assignments */
+$backgroundColor: $one_half_dark_bg;
+$default_font_color: $one_half_dark_white;
+$highlight: $one_half_dark_yellow;
+$nav_inactive: $inactive_for_gold;
+
+
+
+svg:hover {
+  color: $highlight;
+}
+
+body {
+  background: $backgroundColor;
+  color: $default_font_color;
+  font-family: 'Bellfort', sans-serif;
+}
+
+.current {
+  color: green;  
+}
+
+
+a {
+  text-decoration: none;
+  color: $highlight;
+}
+
+.highlight {
+  color: $highlight;
+}
+/* Imported from old site */ 
+
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+body{
+  background-repeat:no-repeat; 
+  background-position: center center;
+  background-size: cover;
+}
+
+.topo_bg{
+  background-image: url("../images/topo_bg_black.png");
+}
+
+.logo{
+  width: 5rem;
+}
+
+.container {
+  height: 100%;
+  width: 50%;
+
+}
+.container::before,
+.container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50vw;
+  z-index: -1;
+}
+.container::before,
+.main_right{
+  /* rightside */
+  background-image: url("../images/main_right.jpg");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*left: 50%;*/
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+@font-face {
+  font-family: munichmetal;
+  src: url(../fonts/another_america.ttf);
+}
+
+
+.pool_right{
+  /* rightside */
+  background-image: url("../images/main_right.jpg");
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*left: 50%;*/
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.container::after,
+.main_left {
+  /* leftside */
+  /* background: #0f0; /* use bg image here */
+  
+  right: 50%;
+}
+
+
+.munichmetal{
+  font-family: munichmetal;
+  letter-spacing: 0.2rem;
+}
+
+.modal-content{
+  color: black;
+  
+}
+
+.modal-dialog {
+  max-width: 80%;
+}
+
+.svg{
+  width: 32;
+  height: 32;
+  color:white
+}
+
+.no-link, .no-link:hover, .no-link:visited, .no-link:active{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+}
+
+.cover-container{
+  max-width: 56rem;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: $nav_inactive;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  //border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: $highlight;
+  color: white;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: $highlight;
+}
+
+
+/*
+* Banner
+*/
+
+
+/*
+ * Content
+ */
+.card-img-overlay {
+  border-radius: 0%;
+  top: 30%;
+  left: 10%;
+}
+
+.card-img-overlay h2 {
+  font-size: 5rem;
+  width: auto;
+  text-align: left;
+}
+
+section .row {
+  margin-bottom: 2rem;
+}
+
+.content {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+
+/*
+ * Lists
+ */
+
+ .intro li {
+  list-style: none;
+  text-decoration: line-through;
+ }
+
+ 
+
+/*
+ * Pagination
+ */
+
+
+
+.page-link{
+  color: #fff;
+  background-color: transparent;
+}
+
+.page-link:hover{
+  color:$highlight;
+  background-color: transparent;
+}
+
+.page-link.active {
+  color: $highlight;
+  background-color: transparent;
+  border-color: $highlight;
+}
+
+pre {
+  padding: 1rem;
+}
+
+/*
+* Blog / Posts specific
+*/
+
+.blog-content h1, h2, h3, h4{
+  font-weight: lighter;
+  color: $highlight;
+}
+
+.yt-thumbnail-container{
+  position: relative;
+  display: inline-block; 
+  justify-content: center; 
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.yt-thumbnail-image{
+  max-width: 100%;
+  height: auto;
+  position: relative; 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.yt-svg-play-button{
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  height: 8rem;
+  width: auto;
+  // This helps to center the image in the center and not the upper left corner
+  transform: translate(-50%, -50%);
+}
+
+/*
+* VC specific
+*/
+
+.vc-thumb {
+  width: 15rem;
+}
